@@ -41,7 +41,7 @@ This one has time complexity of O(n), because it will take n times to subtract 1
 
 ## Exercise II
 
-What we're doing is searching for the highest floor on which the egg won't break, and we want to find it as efficiently (with fewest drops and breaks) as possible. Because the floors are sorted, we can use a binary search to do this.
+Essentially what we're doing is searching for the highest floor on which the egg won't break, and we want to find it as efficiently (with fewest drops and breaks) as possible. Because the floors are sorted, we can use a binary search to do this.
 
 1. Drop an egg from the middle floor.
 2. If it breaks, move to the lower half's middle floor and repeat
